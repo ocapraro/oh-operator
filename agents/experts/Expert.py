@@ -16,3 +16,6 @@ class Expert:
         if type(ability).__name__ == ability_name:
           return ability.execute()
     return "ERROR: invalid format"
+  
+  def __repr__(self) -> str:
+    return f"{type(self).__name__}(): {self._resume}"

@@ -11,7 +11,7 @@ class GetWeather(Ability):
   }
 
   _desc = "Gets the current weather in a specific city"
-  _param_req_string = f"city(choose one of {[i for i,_ in CITIES.keys()]})"
+  _param_req_string = f"city(choose one of {[i for i in CITIES.keys()]})"
 
   
   def execute(self):
