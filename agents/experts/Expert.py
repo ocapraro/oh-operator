@@ -1,4 +1,4 @@
-from Ability import Ability
+from ..Ability import Ability
 import re
 
 class Expert:
